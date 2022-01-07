@@ -1,0 +1,46 @@
+//backend
+
+const mysql=require("mysql");
+const Promise=require("bluebird");
+Promise.promisifyAll(require("mysql/lib/Connection").prototype);
+
+const dbinfo = {
+    host     : '',
+    user     : '',
+    password : '',
+    database : ''
+}
+
+// connection
+ 
+ "start":"nodemon src/main.js"
+
+
+const express = require('express')
+const app = express()
+const port = 3000
+app.use(express.json());
+const cors = require("cors");
+
+ app.use(cors());
+ 
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
+
+//react
+install bootstrap ,axios
+import "bootstrap/dist/css/bootstrap.min.css";
+
+https://testmoz.com/q/11318944
+
+
+
+
+
+
